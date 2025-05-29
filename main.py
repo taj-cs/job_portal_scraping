@@ -1,6 +1,9 @@
-# JobPortal Scraper - Complete Implementation
-# Author: Your Name
-# Description: Automated job listing aggregator from multiple Bangladeshi job portals
+'''
+JobPortal Scraper - Automated job listing aggregator from multiple Bangladeshi job portals.
+Author: Taj Uddin
+Description: This script scrapes job listings, stores them in a database, performs salary analysis, and sends daily email reports.
+Note: Ensure you have the required environment variables set for database and email configurations.
+'''
 
 import requests
 from bs4 import BeautifulSoup
